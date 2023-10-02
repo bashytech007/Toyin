@@ -109,14 +109,14 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="px-[88px]  w-full">
           <div className="grid mt-4 grid-cols-4 justify-center items-center  gap-8 ml-4  rounded-lg   w-full bg-[#2D7688] ">
             <div className="flex items-center ">
               <div className="">
-                <img src={map} className="w-full" />
+                <img src={map} className="w-full object-cover" />
               </div>
             </div>
-            <div className="flex flex-col gap-2 justify-center">
+            <div className="flex  flex-col gap-2 justify-center">
               <h6 className="text-[#fff] ">Address</h6>
               <div className="text-white  text-start">
                 <p className="">
@@ -133,7 +133,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col gap-2 mt-2">
               <img src={tlogo} alt="firm-logo" className="w-28" />
-              <div className='flex item-center gap-2 mt-2'>
+              <div className="flex item-center gap-2 mt-2">
                 <img src={linkedin} className="w-6" />
                 <img src={facebook} className="w-6" />
                 <img src={twitter} className="w-6" />
@@ -142,7 +142,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
