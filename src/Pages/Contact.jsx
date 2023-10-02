@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from "../components/Navbar/Navbar";
+import Footer from '../components/Footer/Footer';
 import map from '../assets/map.svg'
 import tlogo from '../assets/image26.svg'
 import linkedin from "../assets/Group41.svg";
@@ -141,6 +142,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
